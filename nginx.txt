@@ -1,0 +1,21 @@
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2024-10-08 09:32:53 IST; 5h 48min ago
+       Docs: man:nginx(8)
+   Main PID: 1242 (nginx)
+      Tasks: 9 (limit: 18807)
+     Memory: 12.5M
+        CPU: 58ms
+     CGroup: /system.slice/nginx.service
+             ├─1242 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─1243 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1247 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1249 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1251 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1252 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1253 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             ├─1254 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+             └─1256 "nginx: worker process" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+
+Oct 08 09:32:53 AHMLPT2603 systemd[1]: Starting A high performance web server and a reverse proxy server...
+Oct 08 09:32:53 AHMLPT2603 systemd[1]: Started A high performance web server and a reverse proxy server.
